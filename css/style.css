@@ -1,0 +1,56 @@
+/* -------------------------------
+    Global Reset & Base Typography
+---------------------------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  line-height: 1.6;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* -------------------------------
+    Layout
+---------------------------------- */
+#app {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+/* -------------------------------
+    Utility Classes
+---------------------------------- */
+.center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.subtext {
+  color: var(--muted);
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
